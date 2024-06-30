@@ -1,0 +1,26 @@
+.container{
+  font-family: Montserrat;
+  border: 1px solid black;
+  width: 455px;
+  text-align: center;
+}
+
+.model{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.order{
+  font-size: 23px;;
+}
+
+.order span{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s,
+    font-weight 0.15s;
+}
+.order span:hover{
+  color: rgb(14, 161, 241);
+  font-weight: bold;
+}
