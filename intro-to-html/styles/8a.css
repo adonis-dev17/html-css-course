@@ -1,0 +1,86 @@
+.name, .email{
+  display: block;
+  margin-bottom: 3px;
+}
+
+.survey{
+  margin-top: 0;
+  width: 240px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google{
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+}
+.search{
+  margin-left: 5px;
+  width: 400px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.first, .last, .email1{
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 8px;
+  width: 150px;
+  border: 2px solid rgba(96, 96, 96, 0.3);
+}
+.email1{
+  margin-top: 5px;
+  display: block;
+  width: 320px;
+  margin-bottom: 5px;
+}
+.signup{
+  width: 336px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: rgb(8, 127, 218);
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.request-now{
+  font-family: Verdana;
+  font-size: 30px;;
+}
+
+.pickup, .destination{
+  height: 30px;
+  padding-left: 10px;
+  background-color: rgba(96, 96, 96, 0.1);
+  border: none;
+  display: block;
+  margin-bottom: 5px;
+  width: 330px;
+}
+.request{
+  margin-top: 25px;
+  height: 30px;
+  padding-left: 10px;
+  width: 110px;
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+}
+.later{
+  margin-left: 8px;
+  height: 30px;
+  padding-left: 10px;
+  width: 130px;
+  border: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
