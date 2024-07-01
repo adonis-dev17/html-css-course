@@ -57,7 +57,6 @@
     }
 
     .google{
-      margin-left: 50px;
       width: 250px;
       height: 44px;
       border-radius: 25px;
@@ -70,5 +69,39 @@
     .google:hover{
       box-shadow: 0 0 20px rgba(96, 96, 96, 0.4);
     }
- 
+    .linkedin{
+      font-family: Roboto;
+      font-size: 14px;;
+    }
+    p{
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .blank{
+      margin-top: 0;
+      margin-bottom: 12px;
+      width: 340px;
+      border-radius: 5px;
+    }
+    .join{
+      margin-bottom: 12px;
+    }
+    .agree{
+      width: 340px;
+      height: 40px;
+      border-radius: 30px;
+      font-size: 18px;
+      background-color: rgb(15, 118, 207);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: color 0.15s, 
+      background-color 0.15s, box-shadow 0.15;
+    }
+    .agree:active{
+      color: rgb(15, 118, 207);
+      background-color: white;
+      box-shadow: 0 0 15px rgba(15, 118, 207, 0.4);
+    }
+
 
