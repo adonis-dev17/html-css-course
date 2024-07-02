@@ -90,7 +90,7 @@ cursor: pointer;
   height: 230px;
   border: 2px solid gray;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 20px;
   display: inline-block;
   overflow: hidden;
   border: none;
@@ -123,4 +123,45 @@ cursor: pointer;
   width: 88px;
   height: 30px;
   border-radius: 5px;
+}
+
+.silent-kill{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bubble-eye{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.pinkee{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.assassin{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.lucky{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.road-runner{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
