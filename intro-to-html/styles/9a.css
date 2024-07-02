@@ -1,0 +1,126 @@
+.red{
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green{
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 100px;
+}
+
+.wrap{
+  border: 2px solid gray;
+  width: 320px;
+  padding-left: 18px;
+}
+
+.second{
+  font-family: Verdana;
+  border: 2px solid black;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 30px;
+  background-color: black;
+  color: white;
+}
+.install, .add{
+  margin-left: 10px;
+}
+
+.add{
+  font-size: 11px;
+  color: gray;
+}
+
+.first{
+  border: 2px, solid black;
+  height: 120px;
+  width: 360px;
+  margin-left: 20px;
+}
+
+.profile{
+  height: 140px;
+  border: 2px solid rgba(96, 96, 96, 0.3);
+  box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+  width: 700px;
+  border-radius: 15px;
+}
+.profile-pic{
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: none;
+  border-radius: 100px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+input{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgba(96, 96, 96);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+.tweet{
+margin-left: 120px;
+padding: 10px 12px;
+width: 90px;
+border-radius: 30px;
+border: none;
+background-color: rgb(24, 143, 240);
+color: white;
+vertical-align: middle;
+cursor: pointer;
+} 
+
+.add-friend{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 150px;
+  height: 230px;
+  border: 2px solid gray;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: inline-block;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+}
+.oliver{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.name{
+  margin-top: 0px;
+  margin-left: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 4px;;
+}
+.common-friends{
+  font-size: 11px;
+  margin-left: 6px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.add{
+  background-color: rgb(82, 126, 248);
+  color: white;
+  border: none;
+  padding: 10px 3px;
+  width: 88px;
+  height: 30px;
+  border-radius: 5px;
+}
