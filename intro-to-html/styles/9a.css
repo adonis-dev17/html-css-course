@@ -107,8 +107,15 @@ cursor: pointer;
   margin-left: 6px;
   font-weight: bold;
   font-size: 13px;
-  margin-bottom: 4px;;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: letter-spacing 2s;
 }
+
+.name:hover{
+  letter-spacing: 5px;
+}
+
 .common-friends{
   font-size: 11px;
   margin-left: 6px;
@@ -123,6 +130,16 @@ cursor: pointer;
   width: 88px;
   height: 30px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.15s,
+    background-color 0.15s;
+}
+.add:hover{
+  box-shadow: 0 0 15px rgba(82, 126, 248, 0.4);
+}
+
+.add:active{
+  background-color: gray;
 }
 
 .silent-kill{
