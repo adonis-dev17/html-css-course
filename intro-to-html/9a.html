@@ -52,6 +52,46 @@
       margin-left: 20px;
     }
 
+    .profile{
+      height: 160px;
+      border: 2px solid rgba(96, 96, 96, 0.3);
+      box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+      width: 700px;
+      border-radius: 15px;
+    }
+    .profile-pic{
+      margin-top: 28px;
+      margin-left: 20px;
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border: none;
+      border-radius: 100px;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    input{
+      margin-left: 20px;
+      font-size: 20px;
+      color: rgba(96, 96, 96);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+      border: none;
+      width: 300px;
+      vertical-align: middle;
+    }
+  .tweet{
+    margin-left: 120px;
+    padding: 10px 12px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(24, 143, 240);
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
   </style>
 
 </head>
@@ -82,7 +122,13 @@
         and easy access
       </p>
     </div>
-  
+  </div>
+
+  <h2>Nitzu</h2>
+  <div class="profile">
+    <img class="profile-pic"src="thumbnails/nitsu.jpg" alt="">
+  <input type="text" placeholder="What's happening?">
+  <button class="tweet">Tweet</button>
   </div>
 
 </body>
