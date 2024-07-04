@@ -14,6 +14,7 @@ p{
   height: 425px; */
   border: none;
   box-shadow: 0 0 10px rgba(96, 96, 96, 0.3);
+  align-items: center;
   /* margin-left: 20px;
   margin-right: 10px;
   margin-bottom: 10px; */
@@ -99,6 +100,7 @@ p{
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 30px;
-  row-gap: 50px;
+  column-gap: 10px;
+  row-gap: 30px;
+  align-items: center;
 }
