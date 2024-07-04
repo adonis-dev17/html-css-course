@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Grid Exercises</title>
-</head>
-<body style="padding-bottom: 1000px;">
-
-  <!-- 11a -->
-  <h2>Grid with 2 columns</h2>
-  <div style="
-    display: grid;
-    grid-template-columns: 200px 75px;
-  ">
-    <div style="background-color: lightblue;">200px</div>
-    <div style="background-color: lightpink;">75px</div>
-  </div>
-
-  <!-- 11b -->
-  <h2>Grid with 3 columns Widths=50px|remaining space|75px</h2>
-  <div style="
-    display: grid;
-    grid-template-columns: 50px 1fr 75px;
-  ">
-    <div style="background-color: lightblue;">col1</div>
-    <div style="background-color: lightpink;">col2</div>
-    <div style="background-color: lightblue;">col3</div>
-  </div>
-  <!-- 11c -->
-   <h2>Grid with 4 equal columns</h2>
-   <h2>Space between columns=20px, space between rows=10px</h2>
-   <div style="
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 10px;
-   ">
-    <div style="background-color: lightpink;">col1</div>
-    <div style="background-color: lightpink;">col2</div>
-    <div style="background-color: lightpink;">col3</div>
-    <div style="background-color: lightpink;">col4</div>
-
-    <div style="background-color: lightpink;">col1</div>
-    <div style="background-color: lightpink;">col2</div>
-    <div style="background-color: lightpink;">col3</div>
-    <div style="background-color: lightpink;">col4</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Exercises</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <!-- 11a -->
+    <h2>Grid with 2 columns</h2>
+    <div style="display: grid; grid-template-columns: 200px 75px">
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
     </div>
 
-</body>
+    <!-- 11b -->
+    <h2>Grid with 3 columns Widths=50px|remaining space|75px</h2>
+    <div style="display: grid; grid-template-columns: 50px 1fr 75px">
+      <div style="background-color: lightblue">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue">col3</div>
+    </div>
+    <!-- 11c -->
+    <h2>Grid with 4 equal columns</h2>
+    <h2>Space between columns=20px, space between rows=10px</h2>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      "
+    >
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+    </div>
+  </body>
 </html>
