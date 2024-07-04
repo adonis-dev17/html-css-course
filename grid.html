@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grid Practice</title>
 </head>
-<body>
+<!-- add padding 1000px for more space at the bottom -->
+<body style="padding-bottom: 1000px;">
   <!-- how grid woeks -->
   <div style="
     display: grid;
@@ -33,18 +34,18 @@
   display: grid;
   grid-template-columns: 100px 1fr;
   ">
-  <div style="background-color: lightblue">100px</div>
-  <div style="background-color: lightpink">1fr</div>
+  <div style="background-color: lightblue;">100px</div>
+  <div style="background-color: lightpink;">1fr</div>
 </div>
-  <!-- two 1fr have equal spaces and each has 1/3 of the remaining space-->
+  <!-- two 1fr have equal spaces and each has 1/2 of the remaining space-->
   <div style="
   margin-top: 20px;
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
   ">
-  <div style="background-color: lightblue">100px</div>
-  <div style="background-color: lightpink">1fr</div>
-  <div style="background-color: lightblue">1fr</div>
+  <div style="background-color: lightblue;">100px</div>
+  <div style="background-color: lightpink;">1fr</div>
+  <div style="background-color: lightblue;">1fr</div>
   </div>
 
   <!-- 2fr will have 2/3 of the remaining space-->
@@ -53,9 +54,28 @@
   display: grid;
   grid-template-columns: 100px 1fr 2fr;
   ">
-  <div style="background-color: lightblue">100px</div>
-  <div style="background-color: lightpink">1fr</div>
-  <div style="background-color: lightblue">2fr</div>
+  <div style="background-color: lightblue;">100px</div>
+  <div style="background-color: lightpink;">1fr</div>
+  <div style="background-color: lightblue;">2fr</div>
+  </div>
+
+   <!-- three 1fr as template for youtube file-->
+   <!-- In using grid: 1) declare display: grid, and 2) grid-template-columns:-->
+   <!-- use column-gap to separate columns -->
+   <!-- use row-gap to separate rows -->
+   <div style=" 
+   margin-top: 20px; 
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 20px; 
+   row-gap: 40px; 
+   ">
+   <div style="background-color: lightblue; height: 200px;">1fr</div>
+   <div style="background-color: lightpink; height: 200px;">1fr</div>
+   <div style="background-color: lightblue; height: 200px;">1fr</div>
+   <div style="background-color: lightpink; height: 200px;">1fr</div>
+   <div style="background-color: lightblue; height: 200px;">1fr</div>
+   <div style="background-color: lightpink; height: 200px;">1fr</div>
   </div>
 </body>
 </html>
