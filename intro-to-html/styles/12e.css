@@ -68,3 +68,55 @@ body {
   padding: 5px 10px;
   border-radius: 2px;
 }
+
+/* for Facebook Suggested friends */
+
+/* set picture first so it will not cover the whole screen */
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+/* set profile border */
+.profile-border {
+  margin: 0;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* set p */
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.profile-name{
+  font-weight: 700;
+}
+.profile-tag, .profile-popularity{
+  color: lightslategray
+}
+
+/* set the profile info */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 5px; */
+  width: 100px;
+  margin-left: 10px;
+}
+
+/* set button */
+.profile-button {
+  margin-left: 120px;
+  margin-top: 10px;
+  background-color: rgb(44, 115, 173);
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
