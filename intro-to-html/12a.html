@@ -13,15 +13,20 @@
     </div>
 
     <h2>Flexbox with 3 items. Widths=50px|remaining space|75px</h2>
-    <div style="display: flex; flex-direction: row">
+    <div style="display: flex; flex-direction: row; border: 1px, solid, gray">
       <div style="background-color: lightblue; width: 50px">item1</div>
-      <div style="background-color: lightpink; flex: 1">item2ing space</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
       <div style="background-color: lightblue; width: 75px">item3</div>
     </div>
 
     <h2>Flexbox with 4 items spread evenly accross the page</h2>
     <div
-      style="display: flex; flex-direction: row; justify-content: space-between"
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px, solid, gray;
+      "
     >
       <div style="background-color: lightpink">item1</div>
       <div style="background-color: lightpink">item2</div>
