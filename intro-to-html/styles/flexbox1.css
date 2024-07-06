@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding-bottom: 1000px;
+}
+
+.left-panel,
+.right-panel {
+  background-color: lightpink;
+}
+.middle-panel {
+  background-color: lightblue;
+  flex: 1;
+  max-width: 420px;
+}
+.header {
+  height: 66px;
+  border: 3px solid lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-panel {
+  width: 270px;
+}
+.right-panel {
+  width: 220px;
+}
