@@ -19,7 +19,10 @@
   width: 100%;
   border-radius: 30px;
 }
-
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
 .video-author,
 .video-stats {
   font-size: 12px;
@@ -33,4 +36,20 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
+}
+
+.video-time {
+  font-family: Robot, arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
 }
