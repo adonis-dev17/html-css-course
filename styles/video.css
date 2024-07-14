@@ -51,6 +51,7 @@
   white-space: nowrap;
   z-index: 100;
   opacity: 0;
+  transition: all 0.15s;
 }
 .channel-picture:hover .hovered-image {
   opacity: 1;
@@ -89,10 +90,25 @@
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 15px;
+  column-gap: 16px;
   row-gap: 40px;
 }
-
+/* Responsive design */
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .video-time {
   font-family: Robot, arial;
   font-size: 12px;
