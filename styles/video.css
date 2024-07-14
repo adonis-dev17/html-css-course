@@ -9,7 +9,10 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
-
+.no-underline {
+  text-decoration: none;
+  color: black;
+}
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -18,7 +21,59 @@
 .profile-picture {
   width: 40px;
   border-radius: 50px;
+  position: relative;
 }
+.channel-picture {
+  position: relative;
+  white-space: nowrap;
+}
+.channel-picture .hovered-image {
+  /* display: inline-block; */
+  font-family: Roboto, Arial;
+  width: 220px;
+  background-color: white;
+  line-height: 20px;
+  position: absolute;
+  bottom: -2;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(96, 96, 96, 0.15s);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(96, 96, 96, 0.8s);
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 100;
+  opacity: 0;
+}
+.channel-picture:hover .hovered-image {
+  opacity: 1;
+}
+.hovered-image img {
+  width: 60px;
+}
+.left img {
+  border-radius: 30px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.right .author {
+  font-size: 16px;
+  font-weight: 700;
+}
+.right .subs {
+  font-size: 14px;
+  color: rgb(103, 103, 103);
+}
+
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
