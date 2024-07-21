@@ -101,8 +101,20 @@
 @media (min-width: 1000px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
   }
 }
+@media (min-width: 1001px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .video-author,
+.video-stats {
+  font-size: 14px;
+}
+}
+
 .video-time {
   font-size: 12px;
   font-weight: 500;
