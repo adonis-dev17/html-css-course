@@ -27,3 +27,19 @@
   font-family: Roboto, Arial;
   font-size: 10px;
 }
+@media (min-width: 1200.1px) {
+  .sidebar {
+    width: 180px;
+  }
+  .sidebar-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .sidebar-link img {
+    padding-left: 20px;
+    margin-bottom: 7px;
+  }
+}
