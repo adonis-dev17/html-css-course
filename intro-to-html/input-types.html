@@ -51,5 +51,117 @@
       7. <b>submit:</b> A button for submitting the form data to the server.
     </p>
     <input type="submit" value="Submit" />
+
+    <h1>HTML5 Input Types You Might Not Be Using</h1>
+
+    <p>
+      9. The <b>color</b> input type enables the selection of a color through a
+      color picker interface.
+    </p>
+    <form>
+      <label for="favcolor">Choose your favorite color:</label>
+      <input type="color" class="favcolor" name="favcolor" value="#ff0000" />
+    </form>
+
+    <p>
+      10. The <b>date</b> input type in HTML5 allows users to select dates using
+      a calendar-like interface.
+    </p>
+    <form>
+      <label for="startdate">Start Date:</label>
+      <input type="date" id="startdate" name="startdate" />
+    </form>
+
+    <p>
+      11. The <b>datetime-local</b> input type lets you choose a date and time
+      using one button or dropdown list on the webpage form.
+    </p>
+    <form>
+      <label for="meeting">Schedule Meeting:</label>
+      <input type="datetime-local" id="meeting" name="meeting" />
+    </form>
+
+    <p>
+      12. The <b>month</b> input type allows choosing a month and year only
+      without needing a day. It is supposed to be used in cases where only
+      months and years matter to facilitate users’ entries and guarantee the
+      input’s conformity.
+    </p>
+    <form>
+      <label for="expiry">Credit Card Expiry Date:</label>
+      <input type="month" id="expiry" name="expiry" />
+    </form>
+
+    <p>
+      13. The <b>week</b> input type in HTML5 allows users to select a specific
+      week within a given year. This input type is particularly useful for
+      applications that involve weekly planning, scheduling, or reporting.
+    </p>
+    <form>
+      <label for="week">Select Week:</label>
+      <input type="week" id="week" name="week" />
+    </form>
+
+    <p>
+      14. Users can use the <b>time</b> input type to choose a precise time of
+      day, typically represented in hours and minutes. This input type reduces
+      the chances of incorrect input, thereby enhancing standardization in input
+      format.
+    </p>
+    <label for="week">Select a time:</label>
+    <input type="time" id="week" name="week" />
+
+    <p>
+      15. In HTML5, the <b>range</b> input type enables users to select a value
+      within particular limits by sliding. This method is good when users need
+      to make adjustments within a set of predefined values, giving a higher
+      level of interaction and user-friendliness.
+    </p>
+    <label for="volume">Volume Control:</label>
+    <input
+      type="range"
+      id="volume"
+      name="volume"
+      min="0"
+      max="100"
+      value="50"
+    />
+
+    <p>
+      16. The <b>search</b> input type is meant for search fields. It has a text
+      input tailored for searching, which includes a clear button meant to clear
+      the text for enhanced user experience. You can use the search input type
+      on search forms when you’re required to enter and send in search queries.
+    </p>
+    <label for="site-search">Search the site:</label>
+    <input type="search" id="site-search" name="q" placeholder="Search..." />
+    <input type="submit" value="Search" />
+
+    <p>
+      17. In HTML5, the <b>tel</b> input type is meant for entering telephone
+      numbers. However, no fixed format is enforced by this input type, which
+      allows for flexibility with different phone number formats globally.
+    </p>
+    <form>
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
+    </form>
+
+    <p>
+      18. The <b>url</b> input type is designed to enter web addresses. It
+      confirms the pattern of a typical URL, which should incorporate a protocol
+      such as http or https plus a domain. This variety obligates users to
+      comply with some valid URL format to thwart any wrongly formatted URLs.
+    </p>
+    <form>
+      <label for="website">Enter a valid url:</label>
+      <input
+        type="url"
+        id="website"
+        name="website"
+        placeholder="https://example.com"
+      />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
